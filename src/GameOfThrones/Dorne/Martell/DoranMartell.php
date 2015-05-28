@@ -9,6 +9,8 @@
 namespace AtaevTimur\BinaryStudio\GameOfThrones\Dorne\Martell;
 
 
-class DoranMartell {
+use AtaevTimur\BinaryStudio\GameOfThrones\Person;
+
+class DoranMartell extends Person {
 
 }

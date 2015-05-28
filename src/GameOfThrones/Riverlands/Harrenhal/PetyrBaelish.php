@@ -9,6 +9,8 @@
 namespace AtaevTimur\BinaryStudio\GameOfThrones\Riverlands\Harrenhal;
 
 
-class PetyrBaelish {
+use AtaevTimur\BinaryStudio\GameOfThrones\Person;
+
+class PetyrBaelish extends Person {
 
 }

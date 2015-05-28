@@ -9,6 +9,8 @@
 namespace AtaevTimur\BinaryStudio\GameOfThrones\Westerlands\Lannister;
 
 
-class CerseiLannister {
+use AtaevTimur\BinaryStudio\GameOfThrones\Person;
+
+class CerseiLannister extends Person {
 
 }

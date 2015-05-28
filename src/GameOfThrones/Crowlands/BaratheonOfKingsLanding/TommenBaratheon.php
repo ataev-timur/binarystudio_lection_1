@@ -9,6 +9,8 @@
 namespace AtaevTimur\BinaryStudio\GameOfThrones\Crowlands\BaratheonOfKingsLanding;
 
 
-class TommenBaratheon {
+use AtaevTimur\BinaryStudio\GameOfThrones\Person;
+
+class TommenBaratheon extends Person {
 
 }

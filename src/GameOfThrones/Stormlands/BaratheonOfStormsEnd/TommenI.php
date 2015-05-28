@@ -9,6 +9,8 @@
 namespace AtaevTimur\BinaryStudio\GameOfThrones\Stormlands\BaratheonOfStormsEnd;
 
 
-class TommenI {
+use AtaevTimur\BinaryStudio\GameOfThrones\Person;
+
+class TommenI extends Person {
 
 }
