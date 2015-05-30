@@ -8,8 +8,15 @@
 
 namespace AtaevTimur\BinaryStudio\GameOfThrones;
 
-
+/**
+ * Class Person
+ * Абстрактный класс личности
+ * @package AtaevTimur\BinaryStudio\GameOfThrones
+ */
 abstract class Person {
+    /**
+     * @return string
+     */
     public static function whoami()
     {
         $reflection = new \ReflectionClass(static::class);
