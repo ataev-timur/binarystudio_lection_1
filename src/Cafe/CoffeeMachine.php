@@ -119,8 +119,10 @@ class CoffeeMachine {
             $class = $this->beverages[$name]['class'];
             /** @var AbstractBeverage $beverage */
             $beverage = new $class;
+            echo 'Приготовлена одна порция: ';
             echo $beverage->getName(), PHP_EOL;
             echo $beverage->getDescription(), PHP_EOL;
+            echo $beverage->getRecipe(), PHP_EOL;
         } catch(\Exception $exception) {
             echo $exception->getMessage(), PHP_EOL;
         }
